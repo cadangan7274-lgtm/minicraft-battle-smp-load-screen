@@ -1,0 +1,13 @@
+Open TitleScreenMixin.java.
+
+PARALLAX:
+- `zoom = 1.035f` controls how much extra image is rendered outside the screen.
+  Higher values allow more camera movement, but can crop more of the artwork.
+- `driftX` and `driftY` control the automatic camera drift.
+  Lower multipliers make it slower and calmer.
+- `mouseParallaxX` and `mouseParallaxY` control the tiny mouse-follow effect.
+  Set their multipliers to 0 for a purely automatic camera.
+
+OTHER ANIMATION:
+- The particle count is the `for (int i = 0; i < 18; i++)` loop.
+- Lower 18 to 10 or 8 for weaker phones.
